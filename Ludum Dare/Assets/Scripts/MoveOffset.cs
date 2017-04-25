@@ -18,6 +18,6 @@ public class MoveOffset : MonoBehaviour {
 	void Update () {
         offset += speed * Time.deltaTime;
 
-        currentMaterial.SetTextureOffset("_MainTex", new Vector2(offset, 0.12f));
+        currentMaterial.SetTextureOffset("_MainTex", new Vector2(offset, 0));
 	}
 }
